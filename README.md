@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+Here's the code for the README file:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+```markdown
+# Todo List App - React Native
 
-## Get started
+## Overview
+This is a simple **Todo List Application** built using **React Native**. The app allows users to manage their tasks by adding, editing, deleting, and marking them as completed. The tasks persist even after closing and reopening the app using **AsyncStorage**.
 
-1. Install dependencies
+The app features:
+- Bottom tab navigation with **Todo List** and **Completed Tasks** screens.
+- Task management with features like **Add, Edit, Delete**, and **Mark as Completed**.
+- Simple and clean UI using **React Native Paper** for a responsive experience.
+- **Search and Sort** tasks by name or due date.
+  
+---
 
+## Features
+
+- **Todo List Screen**: Displays tasks with options to:
+  - Add a new task.
+  - Edit the task name.
+  - Delete a task.
+  - Mark a task as completed.
+  
+- **Completed Tasks Screen**: Displays tasks that have been marked as completed, with the option to delete them.
+
+- **Persistence**: Tasks are stored using **AsyncStorage**, ensuring that tasks persist even after closing and reopening the app.
+
+- **Search Functionality**: Allows users to search tasks by name.
+
+- **Task Sorting**: Sort tasks by name or due date for better organization.
+
+---
+
+## Installation
+
+### Prerequisites
+To run this app, you need:
+- Node.js and npm installed on your machine.
+- Expo CLI (recommended for React Native development).
+
+### Steps to Install
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/praveenbabuspb/todo.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd todo
+   ```
+
+3. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+4. **Run the app using Expo**:
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+This will open a new page in your browser with a QR code. Scan the QR code with the **Expo Go app** (available on iOS/Android) to view the app on your mobile device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technologies Used
+- **React Native**: The core framework for building the app.
+- **React Navigation**: For managing screen navigation.
+- **React Native Paper**: A Material Design library for React Native, used for UI components.
+- **AsyncStorage**: Used to persist data across app sessions.
+- **Expo**: A framework and platform for universal React applications.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Screenshots
 
-```bash
-npm run reset-project
+![Todo List](https://via.placeholder.com/400x800.png)
+*Todo List Screen*
+
+![Completed Tasks](https://via.placeholder.com/400x800.png)
+*Completed Tasks Screen*
+
+---
+
+## Future Improvements
+
+- **Push Notifications**: Add push notifications for task reminders.
+- **User Authentication**: Integrate user login/registration (using Firebase or similar).
+- **Cloud Sync**: Sync tasks across devices using Firebase Firestore.
+  
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) – for helping with React Native setup.
+- [React Navigation Documentation](https://reactnavigation.org/) – for navigation setup.
+- [React Native Paper Documentation](https://callstack.github.io/react-native-paper/) – for UI components.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Make sure to replace the placeholder images in the screenshots section with actual screenshots of your app or remove that section if you prefer not to include them. You can also customize the repository link and add any additional instructions if needed.
