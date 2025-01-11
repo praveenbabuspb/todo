@@ -1,6 +1,4 @@
-Here's the code for the README file:
 
-```markdown
 # Todo List App - React Native
 
 ## Overview
@@ -74,15 +72,6 @@ This will open a new page in your browser with a QR code. Scan the QR code with 
 
 ---
 
-## Screenshots
-
-![Todo List](https://via.placeholder.com/400x800.png)
-*Todo List Screen*
-
-![Completed Tasks](https://via.placeholder.com/400x800.png)
-*Completed Tasks Screen*
-
----
 
 ## Future Improvements
 
