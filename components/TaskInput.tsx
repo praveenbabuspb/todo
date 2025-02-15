@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    marginRight: 8,
+    marginRight: 10,
   },
 });
 
